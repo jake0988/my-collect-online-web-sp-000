@@ -11,9 +11,9 @@ def my_collect(array)
 end
 
   if array[i] \/s\
-  my_collect("a") do |coll|
+    my_collect("a") do |coll|
     coll.upcase
-
   else
     my_collect("a") do |coll|
-      coll.split(" ").first
+    coll.split(" ").first
+  end
