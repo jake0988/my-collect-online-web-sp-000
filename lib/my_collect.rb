@@ -3,7 +3,7 @@ def my_collect(array)
   i = 0
   collect = []
 
-  while i > array.length
+  while i < array.length
     collect << yield(array[i])
     binding.pry
     i += 1
