@@ -13,7 +13,7 @@ def my_collect(array)
 end
 
 my_collect("a") do |coll|
-  if array[i].strip != array[i]
+  if coll.strip != coll[i]
     coll.upcase
   else
     coll.split(" ").first
