@@ -7,7 +7,7 @@ def my_collect(array)
     collect << yield(array[i])
     binding.pry
     i += 1
-
+    puts collect[i]
   end
   collect
 end
