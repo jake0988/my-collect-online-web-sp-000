@@ -10,7 +10,7 @@ def my_collect(array)
   collect
 end
 
-  my_collect("a") do |coll|
+my_collect("a") do |coll|
   if array[i].strip != array[i]
     coll.upcase
   else
