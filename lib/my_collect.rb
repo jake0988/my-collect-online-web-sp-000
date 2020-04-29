@@ -5,7 +5,7 @@ def my_collect(array)
 
   while i < array.length
     collect << yield(array[i])
-    binding.pry
+    # binding.pry
     i += 1
     # puts "blah" collect[i]
   end
